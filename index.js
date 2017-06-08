@@ -1,3 +1,4 @@
+/*jshint esversion: 6*/
 const express = require('express');
 const server = express();
 const port = 8080;
@@ -9,5 +10,5 @@ server.get('/', (request, response) => {
 });
 
 server.listen(port, () => {
-  console.log('Now listening on port, ' port);
+  console.log('Now listening on port ', port);
 });

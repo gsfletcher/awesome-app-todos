@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gsfletcher/awesome-app-todos/issues"
   },
-  "homepage": "https://github.com/gsfletcher/awesome-app-todos#readme"
+  "homepage": "https://github.com/gsfletcher/awesome-app-todos#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }

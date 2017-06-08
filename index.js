@@ -9,5 +9,5 @@ server.get('/', (request, response) => {
 });
 
 server.listen(port, () => {
-  console.log('Now listening on port, ' port);
+  console.log('Now listening on port ', port);
 });
